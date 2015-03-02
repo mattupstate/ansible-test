@@ -1,0 +1,9 @@
+- hosts: all
+  sudo: yes
+
+  vars:
+    some_dictionary:
+      hello: world
+
+  roles:
+    - role: 'myrole'

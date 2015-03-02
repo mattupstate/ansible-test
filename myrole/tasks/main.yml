@@ -1,0 +1,3 @@
+---
+# tasks file for lua
+- template: src=template.j2 dest=/tmp/something
